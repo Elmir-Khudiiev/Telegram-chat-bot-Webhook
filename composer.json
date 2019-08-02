@@ -1,0 +1,19 @@
+{
+    "name": "chatbot/testbot",
+    "description": "Test telegram chat bot.",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "classes\\": "classes/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elmir Khudiiev",
+            "email": "Elmir1993Elmir@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
