@@ -1,6 +1,6 @@
 {
-    "name": "chatbot/testbot",
-    "description": "Test telegram chat bot.",
+    "name": "chatbot/WebhookBot",
+    "description": "Webhook telegram chat bot.",
     "type": "project",
     "require": {},
     "autoload": {
@@ -14,6 +14,5 @@
             "name": "Elmir Khudiiev",
             "email": "Elmir1993Elmir@gmail.com"
         }
-    ],
-    "minimum-stability": "stable"
+    ]
 }

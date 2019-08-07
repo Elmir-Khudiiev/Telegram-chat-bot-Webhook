@@ -13,7 +13,7 @@ ___
 
 ## 1. Telegram
 * Створюємо бот, за допомогою ```@BotFather```.
-* To install / register a webhook, you need to execute the following HTTP request (you can simply open this URL in a browser):
+* To install / register a webhook, you need to execute the following HTTPS request (you can simply open this URL in a browser):
 ```
 https://api.telegram.org/botYOUR-TOKEN/setWebhook?url=https://YOUR.DOMAIN
 ```
@@ -35,7 +35,7 @@ composer install
 ```
 ---
 
-## 2. Database
+## 3. Database
 The example database will be described ```MySql```  
 We create a database:  
 > ```db_name``` - name your database.
@@ -51,6 +51,6 @@ CREATE TABLE `db_name`.`chat` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `question
 The bot verifies the user's message with the column ```question```   and provides a response from the column ```answer```.
 
 ---
-## 2. Config
+## 4. Config
 Rename the file ```config-example.php``` / ```config.php```  
 Fill in the file according to your details.
